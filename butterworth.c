@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdint.h>
+#include "butterworth.h"
 
 void lowpass_butter_1khz_order4_cuttoff_30hz(double *input, double *output, int n_samples)
 {
